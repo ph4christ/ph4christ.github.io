@@ -1282,10 +1282,11 @@ input, select, textarea {
 			}
 
 		#header .logo {
+			margin: 0;
 			width: 5.5rem;
 			height: 5.5rem;
-			line-height: 5.5rem;
-			border: none 1px #ffffff;
+			line-height: 0.5rem;
+			border: none 0px #ffffff;
 			border-radius: 100%;
 		}
 
@@ -1432,8 +1433,8 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 2.75rem;
+				height: 2.75rem;
 				line-height: 4.75rem;
 			}
 
