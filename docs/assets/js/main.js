@@ -14,6 +14,15 @@
 		$main = $('#main'),
 		$main_articles = $main.children('article');
 
+	var player
+	function onYoutubePlayerAPIReady() {
+		player = new YT.Player('video', {
+			events: {
+				'onReady': onPlayerReady
+			}
+		})
+	}
+	
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
